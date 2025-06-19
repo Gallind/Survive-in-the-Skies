@@ -3,6 +3,7 @@ using UnityEngine.EventSystems;
 
 public class RTSCameraController : MonoBehaviour
 {
+    
     public static RTSCameraController instance;
 
     // If we want to select an item to follow, inside the item script add:
