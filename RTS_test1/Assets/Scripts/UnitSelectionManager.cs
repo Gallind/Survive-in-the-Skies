@@ -10,7 +10,8 @@ public class UnitSelectionManager : MonoBehaviour
     public List<GameObject> allUnitsList = new List<GameObject>();
     public List<GameObject> unitsSelected = new List<GameObject>();
 
-    public LayerMask clickable, ground;
+    public LayerMask clickable, ground, attackable;
+    public bool attackCursorVisible;
     public GameObject groundMarker;
     private Camera cam;
 
@@ -65,7 +66,28 @@ public class UnitSelectionManager : MonoBehaviour
                 groundMarker.SetActive(false);
                 groundMarker.SetActive(true);
             }
-
+        }
+        //attack target
+        if (Input.GetMouseButtonDown(1) && unitsSelected.Count > 0)
+        {
+            RaycastHit hit;
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, attackable))
+            {
+                attackCursorVisible = true;
+                Transform target = hit.transform;
+                foreach (GameObject unit in unitsSelected)
+                {
+                    if (unit.GetComponent<AttackController>())
+                    {
+                        unit.GetComponent<AttackController>().targetToAttack = target;
+                    }
+                }
+            }
+            else
+            {
+                attackCursorVisible = false;
+            }
         }
     }
 
