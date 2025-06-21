@@ -8,15 +8,30 @@ public class Unit : MonoBehaviour
     private float unitHP;
     public float unitMaxHP;
     public HealthTracker healthTracker;
+    Animator animator;
+    NavMeshAgent agent;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
         if (!gameObject.CompareTag("Enemy"))
         {
             UnitSelectionManager.Instance.allUnitsList.Add(gameObject);
         }
         unitHP = unitMaxHP;
         UpdateHP_UI();
+    }
+    void Update()
+    {
+        if (agent.remainingDistance > agent.stoppingDistance)
+        {
+            animator.SetBool("isMove", true);
+        }
+        else
+        {
+            animator.SetBool("isMove", false);
+        }
     }
 
     private void OnDestroy()
