@@ -130,7 +130,7 @@ public class UnitSelectionManager : MonoBehaviour
     private void SelectUnit(GameObject unit, bool isSelected)
     {
         unit.GetComponent<UnitMovement>().enabled = isSelected;
-            unit.transform.GetChild(0).gameObject.SetActive(isSelected);
+            unit.transform.Find("Indicator").gameObject.SetActive(isSelected);
     }
 
 

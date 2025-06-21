@@ -231,7 +231,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 20
+  m_Radius: 10
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6092019845657528221
 Rigidbody:
@@ -273,6 +273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  switchDirectionTime: 3
 --- !u!1 &8644073004205948887
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,7 +411,7 @@ PrefabInstance:
     - target: {fileID: 725338605063410085, guid: c0fb8fcb57b244e4eb6dbc7b287d77cf, type: 3}
       propertyPath: greenEmission
       value: 
-      objectReference: {fileID: 2100000, guid: 59a897e803b9e4c98b2c5e5970bc660b, type: 2}
+      objectReference: {fileID: 2100000, guid: b6792c775e4a2db41be35dca149451ad, type: 2}
     - target: {fileID: 1546401019560054599, guid: c0fb8fcb57b244e4eb6dbc7b287d77cf, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542

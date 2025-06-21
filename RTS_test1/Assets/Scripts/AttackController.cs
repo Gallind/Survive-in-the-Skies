@@ -13,6 +13,12 @@ public class AttackController : MonoBehaviour
             targetToAttack = other.transform;
         }
     }
+    private void OnTriggerStay(Collider other) {
+        if (!gameObject.CompareTag("Enemy") && other.CompareTag("Enemy") && targetToAttack == null)
+        {
+            targetToAttack = other.transform;
+        }
+    }
     private void OnTriggerExit(Collider other)
     {
         if (!gameObject.CompareTag("Enemy") && other.CompareTag("Enemy") && targetToAttack != null)
