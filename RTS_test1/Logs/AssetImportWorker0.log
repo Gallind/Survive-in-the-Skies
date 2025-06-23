@@ -9030,3 +9030,81 @@ Received Import Request.
 Start importing Assets/Resources/KnightPlayer.prefab using Guid(719b81b0362d84b6c9307e59e8e87f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c82bd3deea1ed2eab4a36c8a92fe53fe') in 0.743813734 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.887 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.908 seconds
+Domain Reload Profiling: 1797ms
+	BeginReloadAssembly (258ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (399ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (203ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (909ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (715ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3850 unused Assets / (1.9 MB). Loaded Objects now: 4407.
+Memory consumption went from 1.11 GB to 1.11 GB.
+Total: 9.002908 ms (FindLiveObjects: 0.420139 ms CreateObjectMapping: 0.546863 ms MarkObjects: 6.431224 ms  DeleteObjects: 1.603229 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3839 unused Assets / (1.8 MB). Loaded Objects now: 4409.
+Memory consumption went from 1.11 GB to 1.11 GB.
+Total: 46.990778 ms (FindLiveObjects: 0.925772 ms CreateObjectMapping: 0.599406 ms MarkObjects: 43.203958 ms  DeleteObjects: 2.260569 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 74523.996865 seconds.
+  path: Assets/Episode10_Assets_RTS/CursorManager.prefab
+  artifactKey: Guid(b6427c523c2ac674389654dce34fb61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Episode10_Assets_RTS/CursorManager.prefab using Guid(b6427c523c2ac674389654dce34fb61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49725a2fb624e9c68886c95cf709888b') in 0.147524346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Episode10_Assets_RTS/torus.fbx
+  artifactKey: Guid(223f444d1829317468a6a72e67e86a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Episode10_Assets_RTS/torus.fbx using Guid(223f444d1829317468a6a72e67e86a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '857aec32eaeea03bf0b621530da86910') in 0.211000214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
