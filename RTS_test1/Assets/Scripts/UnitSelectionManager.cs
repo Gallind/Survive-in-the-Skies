@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.AI;
+using System;
 //testing the repo connection
 public class UnitSelectionManager : MonoBehaviour
 {
@@ -89,6 +90,35 @@ public class UnitSelectionManager : MonoBehaviour
                 attackCursorVisible = false;
             }
         }
+        CursorSelector();
+    }
+
+    private void CursorSelector()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, clickable))
+        {
+            CursorManager.Instance.SetMarkerType(CursorManager.CursorType.Selectable);
+        }
+        else if (Physics.Raycast(ray, out hit, Mathf.Infinity, attackable) && unitsSelected.Count > 0) // AtleastOneOffensiveUnit(unitsSelected)
+        {
+            CursorManager.Instance.SetMarkerType(CursorManager.CursorType.Attackable);
+        }
+        else if (Physics.Raycast(ray, out hit, Mathf.Infinity, ground) && unitsSelected.Count > 0)
+        {
+            CursorManager.Instance.SetMarkerType(CursorManager.CursorType.Walkable);
+        }
+        else
+        {
+            CursorManager.Instance.SetMarkerType(CursorManager.CursorType.None);
+        }
+    }
+
+    private bool AtleastOneOffensiveUnit(List<GameObject> unitsSelected)
+    {
+        throw new NotImplementedException();
     }
 
     public void DeselectAll()
