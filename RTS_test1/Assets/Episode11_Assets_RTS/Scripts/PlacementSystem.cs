@@ -39,7 +39,7 @@ public class PlacementSystem : MonoBehaviour
         Debug.Log("Placement ID: " + ID);
 
 
-        //StopPlacement();
+        StopPlacement();
 
         buildingState = new PlacementState(ID, grid, previewSystem, database, floorData, furnitureData, objectPlacer);
 
@@ -61,7 +61,7 @@ public class PlacementSystem : MonoBehaviour
     {
         if(inputManager.IsPointerOverUI()){
             Debug.Log("Pointer was over UI - Returned");
-            return;
+            //return;
         }
         // When we click on a cell, we get the cell
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
