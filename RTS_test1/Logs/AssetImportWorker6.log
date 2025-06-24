@@ -1,0 +1,841 @@
+Unity Editor version:    6000.1.8f1 (2a5b1522e5ab)
+Branch:                  6000.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.5 (Build 24F74)
+Darwin version:          24.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Date:                    2025-06-24T13:27:13Z
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.1.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+/Users/tomlind/Documents/GitHub/Survive-in-the-Skies/RTS_test1
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+55299
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/tomlind/Documents/GitHub/Survive-in-the-Skies/RTS_test1
+/Users/tomlind/Documents/GitHub/Survive-in-the-Skies/RTS_test1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704482700736]  Target information:
+
+Player connection [140704482700736]  * "[IP] 192.168.1.141 [Port] 0 [Flags] 2 [Guid] 1867653330 [EditorId] 1867653330 [Version] 1048832 [Id] OSXEditor(0,Gals-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704482700736] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704482700736] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.8f1 (2a5b1522e5ab)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.1.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tomlind/Documents/GitHub/Survive-in-the-Skies/RTS_test1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5300M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.1.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.1.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.1.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56475
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002241 seconds.
+- Loaded All Assemblies, in  0.566 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.489 seconds
+Domain Reload Profiling: 1055ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (207ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (431ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.934 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1663ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (580ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (188ms)
+			BuildScriptInfoCaches (33ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (577ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.1.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3850 unused Assets / (1.2 MB). Loaded Objects now: 4378.
+Memory consumption went from 105.0 MB to 103.8 MB.
+Total: 7.573017 ms (FindLiveObjects: 0.386564 ms CreateObjectMapping: 0.426531 ms MarkObjects: 5.691112 ms  DeleteObjects: 1.067967 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1171929.402655 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(2efb008c97080e746836977bc2e35273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-0_comp_light.exr using Guid(2efb008c97080e746836977bc2e35273) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '631ee255e5eeca8ea0168b9075a17f98') in 0.241032045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-13_comp_shadowmask.png
+  artifactKey: Guid(fa8def018a93ea146a83daa7d0bb0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-13_comp_shadowmask.png using Guid(fa8def018a93ea146a83daa7d0bb0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1301661f1f7c8e23eed0b079d24fdb20') in 0.036837711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-3_comp_light.exr
+  artifactKey: Guid(781cad1979292b94caefb239ddfad2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-3_comp_light.exr using Guid(781cad1979292b94caefb239ddfad2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19191c6e4940881222f6100077b80985') in 0.012580651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-14_comp_dir.png
+  artifactKey: Guid(47ff9a8c8a58f6541b57665bf7524bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-14_comp_dir.png using Guid(47ff9a8c8a58f6541b57665bf7524bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aef2708091f80788532406b6120a3266') in 0.040307761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-9_comp_dir.png
+  artifactKey: Guid(7cedf34331e44f340975674e5a48ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-9_comp_dir.png using Guid(7cedf34331e44f340975674e5a48ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7ce9509027e08a11637555b34b1adb9') in 0.01459142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-12_comp_dir.png
+  artifactKey: Guid(f8047024bf6a6c44c821225bf6252772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-12_comp_dir.png using Guid(f8047024bf6a6c44c821225bf6252772) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56a6f31454d17f4b9772b38f77d79a72') in 0.035001903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-10_comp_shadowmask.png
+  artifactKey: Guid(7816fd87ee4b6614e819059fc1c08e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-10_comp_shadowmask.png using Guid(7816fd87ee4b6614e819059fc1c08e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a91e6788c3f91a1fd6bd43bf99cd38c4') in 0.05497918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-3_comp_shadowmask.png
+  artifactKey: Guid(3e86d3ce816fc55408d8ef13c073fa61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-3_comp_shadowmask.png using Guid(3e86d3ce816fc55408d8ef13c073fa61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b288db5eb90d5302007220a7ac49b04e') in 0.015074713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-11_comp_light.exr
+  artifactKey: Guid(ecb5558a22f8e60438d519a9108d1ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-11_comp_light.exr using Guid(ecb5558a22f8e60438d519a9108d1ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c117d4bd4a1b0766108ffe93657bbd22') in 0.035084647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-2_comp_light.exr
+  artifactKey: Guid(8b4bcfc9400d6104ab80f919cc2ca8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-2_comp_light.exr using Guid(8b4bcfc9400d6104ab80f919cc2ca8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7239a4f9839664f18ac8cabbdab5ef2') in 0.011780945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-10_comp_dir.png
+  artifactKey: Guid(5c984e07e844ace4a872c352284ac035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-10_comp_dir.png using Guid(5c984e07e844ace4a872c352284ac035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85ca08696631398c27710bdff68ff8de') in 0.038819799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.772814 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-15_comp_dir.png
+  artifactKey: Guid(15fdf66d652db614ba84d286ab0db5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-15_comp_dir.png using Guid(15fdf66d652db614ba84d286ab0db5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dd53ddae74361e0f1bff2ec9e63668e') in 0.020640383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-17_comp_light.exr
+  artifactKey: Guid(2c35a8f2b11a348419a345f5f14f78b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-17_comp_light.exr using Guid(2c35a8f2b11a348419a345f5f14f78b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bdc1a2091a7fd0c541380b7c2d5e778') in 0.043227492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-18_comp_dir.png
+  artifactKey: Guid(92e0381d231bfb440ac6da46ae720f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-18_comp_dir.png using Guid(92e0381d231bfb440ac6da46ae720f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '877e1cb6158b95b41dbcae5e7bf0a518') in 0.01340487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-17_comp_dir.png
+  artifactKey: Guid(7455640fcf295b44d8e2292fd9481152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-17_comp_dir.png using Guid(7455640fcf295b44d8e2292fd9481152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71c23e6c4d9b9b83b3d29928927f9639') in 0.037176266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.313557 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-18_comp_shadowmask.png
+  artifactKey: Guid(a58d6e5e932e68349ad00dfd3c4eab3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-18_comp_shadowmask.png using Guid(a58d6e5e932e68349ad00dfd3c4eab3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e06d1582ccca6708edcc46e7060e52a5') in 0.020971762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-20_comp_light.exr
+  artifactKey: Guid(42245576e43a50044bea56bd5b850f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-20_comp_light.exr using Guid(42245576e43a50044bea56bd5b850f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b24a1bdd04c38ffea2324d2cc76ee43') in 0.037485053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-21_comp_shadowmask.png
+  artifactKey: Guid(4738f92cb85204141b004e819ae532b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-21_comp_shadowmask.png using Guid(4738f92cb85204141b004e819ae532b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a45335e233f13758db4ac70afa2561c') in 0.043117748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.028607 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-22_comp_light.exr
+  artifactKey: Guid(15f93111b66ce1943923b0f779f5a446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-22_comp_light.exr using Guid(15f93111b66ce1943923b0f779f5a446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab773959ccf0e744f3b31095d266601e') in 0.022037447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-25_comp_light.exr
+  artifactKey: Guid(584be04eafe028c418182dbac9adeebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-25_comp_light.exr using Guid(584be04eafe028c418182dbac9adeebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f4cef0ccee9fad62be43336be2ac64') in 0.037920007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-24_comp_shadowmask.png
+  artifactKey: Guid(86624d6f531729448a1d34d5a4247ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-24_comp_shadowmask.png using Guid(86624d6f531729448a1d34d5a4247ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad7ae8dd0feb63b77bcf28d6ef430be9') in 0.045300784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.025402 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-26_comp_dir.png
+  artifactKey: Guid(3a1b40d5ec7c14947919e4bc1ec3ba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-26_comp_dir.png using Guid(3a1b40d5ec7c14947919e4bc1ec3ba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15d5ffdfb81885c0df15fbdff4fc00c5') in 0.01365657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-27_comp_shadowmask.png
+  artifactKey: Guid(6b67a8275971ee64ebad82f9520e6bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-27_comp_shadowmask.png using Guid(6b67a8275971ee64ebad82f9520e6bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d0935aedb50ca7036915b567ec12ee8') in 0.052715857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-26_comp_shadowmask.png
+  artifactKey: Guid(f51d81b4d2bef484d9156dfffeec7235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-26_comp_shadowmask.png using Guid(f51d81b4d2bef484d9156dfffeec7235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78fc6dd0ada5dbd0194a543d0f7737a9') in 0.049951512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.831075 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-29_comp_shadowmask.png
+  artifactKey: Guid(0ff1b85f232292e4bb69e2d035d86dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-29_comp_shadowmask.png using Guid(0ff1b85f232292e4bb69e2d035d86dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77200641513de6b4ccb6dd459c4dcd3d') in 0.019228412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-32_comp_shadowmask.png
+  artifactKey: Guid(a1b0f71f7dc971d4cabdea7ae5a5697c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-32_comp_shadowmask.png using Guid(a1b0f71f7dc971d4cabdea7ae5a5697c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '461fe215c31119b4346271915a46c4d8') in 0.037550855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-30_comp_light.exr
+  artifactKey: Guid(c305bbf21010b644fbfaa2aba6c1e1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-30_comp_light.exr using Guid(c305bbf21010b644fbfaa2aba6c1e1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a54bba612c92de534d701b122e260a2d') in 0.011528855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-31_comp_dir.png
+  artifactKey: Guid(99933dbb46dc9c446b4667fe353b880a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-31_comp_dir.png using Guid(99933dbb46dc9c446b4667fe353b880a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe6e5434a7a90bbd1722fba25c8c3bc8') in 0.033954792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.959189 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-33_comp_light.exr
+  artifactKey: Guid(6b3710c5423882842b7458b919f36f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-33_comp_light.exr using Guid(6b3710c5423882842b7458b919f36f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28b7dd7cac12b7e6bb86c5b146f71a18') in 0.008265182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-36_comp_light.exr
+  artifactKey: Guid(7612c5fd461574f43b69adc9a7088b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-36_comp_light.exr using Guid(7612c5fd461574f43b69adc9a7088b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '683137d1325702031452b4f90d276c42') in 0.012055124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-34_comp_dir.png
+  artifactKey: Guid(9ba8ab993bc8bd041b7237ad75a382eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-34_comp_dir.png using Guid(9ba8ab993bc8bd041b7237ad75a382eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78dacea4d110413a090491a937422d90') in 0.037903769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-35_comp_light.exr
+  artifactKey: Guid(b88225b06fe304e458fd886f3a1c3eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-35_comp_light.exr using Guid(b88225b06fe304e458fd886f3a1c3eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89a88370e82f450f0b225374bb85978f') in 0.011930426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195318 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-37_comp_dir.png
+  artifactKey: Guid(18721b417111b274f9fba0d3f44c24d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-37_comp_dir.png using Guid(18721b417111b274f9fba0d3f44c24d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7587c509a7126732e4aa18e03dc36a1b') in 0.010066657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-38_comp_light.exr
+  artifactKey: Guid(13e9300c3cf073a4c9515c5cda575d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-38_comp_light.exr using Guid(13e9300c3cf073a4c9515c5cda575d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef5b387bde485533e5d3f58200d5ddcc') in 0.047019339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-38_comp_shadowmask.png
+  artifactKey: Guid(842a610131d502d4caff194fd67971bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-38_comp_shadowmask.png using Guid(842a610131d502d4caff194fd67971bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc42783736a55160320eb682883e7c5c') in 0.014537861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-39_comp_light.exr
+  artifactKey: Guid(d12a306327b772d4ea10269d55f1e5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-39_comp_light.exr using Guid(d12a306327b772d4ea10269d55f1e5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51888b902bd6015bc7746d28f28b3fd8') in 0.033789595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.420089 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-40_comp_shadowmask.png
+  artifactKey: Guid(9c403b2c0e7f2c24e9f392b7fa422b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-40_comp_shadowmask.png using Guid(9c403b2c0e7f2c24e9f392b7fa422b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa6724fa4c814624bf186e6ffe7b0b09') in 0.021019113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-41_comp_shadowmask.png
+  artifactKey: Guid(c924db6d3c348cb4c8bfcf3453124504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-41_comp_shadowmask.png using Guid(c924db6d3c348cb4c8bfcf3453124504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec5a215865e085de06d1cbe6daf930d8') in 0.038193774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-41_comp_light.exr
+  artifactKey: Guid(a30dab75627ace44cb6b4c8e3ab187ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-41_comp_light.exr using Guid(a30dab75627ace44cb6b4c8e3ab187ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2fc8042acc8a788a24d625328916de6') in 0.017516259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001113 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-43_comp_shadowmask.png
+  artifactKey: Guid(f1be988ef5f426643add30c33f289003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-43_comp_shadowmask.png using Guid(f1be988ef5f426643add30c33f289003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57679fccbf8a9e484b12098732e830ae') in 0.041904085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100491 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-44_comp_light.exr
+  artifactKey: Guid(869beacbf3daa9d46a38004f390f5aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-44_comp_light.exr using Guid(869beacbf3daa9d46a38004f390f5aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd265547ca1da6bf21a3b931333ff1c2') in 0.014989752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-46_comp_dir.png
+  artifactKey: Guid(979bfc677bf4d3249834b44a692b99e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-46_comp_dir.png using Guid(979bfc677bf4d3249834b44a692b99e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a950260650231d3c870f873a0a9f565') in 0.035333393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-46_comp_light.exr
+  artifactKey: Guid(d61d2a81a4827e145a37ab2a74fb4986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-46_comp_light.exr using Guid(d61d2a81a4827e145a37ab2a74fb4986) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a1bbc8d41dcec90d5370a254addd35d') in 0.015010825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-47_comp_light.exr
+  artifactKey: Guid(bf2809a9bf2be294b9a64bfe0445a892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-47_comp_light.exr using Guid(bf2809a9bf2be294b9a64bfe0445a892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79b36952c5ae83b7318a650d1a7336f3') in 0.033395174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194045 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-48_comp_dir.png
+  artifactKey: Guid(1d997f0700c940747865895e58135887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-48_comp_dir.png using Guid(1d997f0700c940747865895e58135887) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bca3dba9423cdfdcbe5315197c7b5087') in 0.009221083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-50_comp_dir.png
+  artifactKey: Guid(b31d45a91cff3f84aadc9f6fc7d817df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-50_comp_dir.png using Guid(b31d45a91cff3f84aadc9f6fc7d817df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3882fb1f71ff79d13e3a8917db5563a8') in 0.043709073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-49_comp_shadowmask.png
+  artifactKey: Guid(a42e66bfe36b25c4098c976205d9a836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-49_comp_shadowmask.png using Guid(a42e66bfe36b25c4098c976205d9a836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2495a67bec8c4a03a12541f9b179bb5') in 0.015295432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-48_comp_shadowmask.png
+  artifactKey: Guid(2451cfb0d1c52de4b8d3e8585a1def75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-48_comp_shadowmask.png using Guid(2451cfb0d1c52de4b8d3e8585a1def75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd73ec65b9a25745620c33f822b27bfe8') in 0.033188756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.275110 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-51_comp_shadowmask.png
+  artifactKey: Guid(7fca315db7f4b5149861170989536633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-51_comp_shadowmask.png using Guid(7fca315db7f4b5149861170989536633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5f08b44cce41fc176c9c97700167305') in 0.02084678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-53_comp_shadowmask.png
+  artifactKey: Guid(39278f18f88abdc499b4f79b1f8875db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-53_comp_shadowmask.png using Guid(39278f18f88abdc499b4f79b1f8875db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0390d0406365b2fc700bee5d53ad36e0') in 0.043509162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-52_comp_light.exr
+  artifactKey: Guid(5761fb59e76af114e96005837d92ce69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-52_comp_light.exr using Guid(5761fb59e76af114e96005837d92ce69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a096cf1394800c10af493d91ad8e1f01') in 0.014624052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-53_comp_light.exr
+  artifactKey: Guid(2dd0a89a1d21afe4e80955ddb6e5f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-53_comp_light.exr using Guid(2dd0a89a1d21afe4e80955ddb6e5f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3e0590df54f35f9984cc7d07d42857e') in 0.035578026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133605 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-55_comp_light.exr
+  artifactKey: Guid(f416e4772bc364a418bf75dbac861db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-55_comp_light.exr using Guid(f416e4772bc364a418bf75dbac861db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cce285b77a830d6a299366fca0939176') in 0.036306746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-56_comp_light.exr
+  artifactKey: Guid(1f3ca154d7c51a4488a8ed04998e7f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-56_comp_light.exr using Guid(1f3ca154d7c51a4488a8ed04998e7f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f90c4fb2d163c4354a150c4c34aabf9') in 0.040872213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-57_comp_shadowmask.png
+  artifactKey: Guid(dddfc2f3f25683e4e866af48f3c73aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-57_comp_shadowmask.png using Guid(dddfc2f3f25683e4e866af48f3c73aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '211268673fe328caa219d48b87ae5d6b') in 0.016892083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/Lightmap-56_comp_dir.png
+  artifactKey: Guid(eb88c050326e83d4aa7c4209270a7728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/Lightmap-56_comp_dir.png using Guid(eb88c050326e83d4aa7c4209270a7728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cc34a197a94c9d7e28198e4c383d40f') in 0.038079681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196230 seconds.
+  path: Assets/Holotna/Mountain/Scenes/Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(0c8c9fad2ff251445b6c78748e5dc7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Scenes/Demo/ReflectionProbe-0.exr using Guid(0c8c9fad2ff251445b6c78748e5dc7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28e8c5f9d60303733b2a113b2d445c3e') in 0.134558135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.742638 seconds.
+  path: Assets/Holotna/Mountain/Textures/Bush01_ALB.png
+  artifactKey: Guid(4e41a55218c4d3941a3ef7f5f7d21b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Textures/Bush01_ALB.png using Guid(4e41a55218c4d3941a3ef7f5f7d21b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a64cbc093af0a747618207c836a4a9eb') in 0.009288133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.245024 seconds.
+  path: Assets/Imports/Mountain (Textures)/Colored/Flower01_ALB.png
+  artifactKey: Guid(098b497b8c2034b92b31ca0862f1dd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Mountain (Textures)/Colored/Flower01_ALB.png using Guid(098b497b8c2034b92b31ca0862f1dd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d9c7b997100a955643533e177b856e8') in 0.008814505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.498371 seconds.
+  path: Assets/Holotna/Mountain/Misc/Ground01.png
+  artifactKey: Guid(46f2ea4c338b052418ed96375879dc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Misc/Ground01.png using Guid(46f2ea4c338b052418ed96375879dc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83ae7912b853b5ac8e7ee7349c45bebd') in 0.007895984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099661 seconds.
+  path: Assets/Holotna/Mountain/Misc/Ground03.png
+  artifactKey: Guid(cda5010a2f575834d99cada5aa349533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Misc/Ground03.png using Guid(cda5010a2f575834d99cada5aa349533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '592a655ebe5b2fb8539d7a757b25f970') in 0.007332871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.159132 seconds.
+  path: Assets/Holotna/Mountain/Textures/Leaf01_ALB.png
+  artifactKey: Guid(4b992f8eed5dfbf4c973c33d39d3f3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Textures/Leaf01_ALB.png using Guid(4b992f8eed5dfbf4c973c33d39d3f3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c339419ef11832b6f6c9bb7d811cae99') in 0.068482351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.379098 seconds.
+  path: Assets/Holotna/Mountain/Textures/Leaf01_NRM.png
+  artifactKey: Guid(7feccd2d1614d7541a5411b20bd35df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Textures/Leaf01_NRM.png using Guid(7feccd2d1614d7541a5411b20bd35df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf8ed99df3324689a606ffc96d270202') in 0.107477204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.803 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.757 seconds
+Domain Reload Profiling: 1561ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (467ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (186ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (757ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (596ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3848 unused Assets / (1.0 MB). Loaded Objects now: 4420.
+Memory consumption went from 110.4 MB to 109.4 MB.
+Total: 7.232146 ms (FindLiveObjects: 0.379499 ms CreateObjectMapping: 0.446585 ms MarkObjects: 5.359854 ms  DeleteObjects: 1.045193 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 448.908266 seconds.
+  path: Assets/Holotna/Mountain/Textures/Rock01_NRM.png
+  artifactKey: Guid(d9cf6e8f7012ff84f80c16dc32d85d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Textures/Rock01_NRM.png using Guid(d9cf6e8f7012ff84f80c16dc32d85d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '318e16993ead9e1b6d962d06aad27d9d') in 0.084940861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Holotna/Mountain/Textures/Trunk01_ALB.png
+  artifactKey: Guid(c4233c5f77b77db4b9ec54f169e5a76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Textures/Trunk01_ALB.png using Guid(c4233c5f77b77db4b9ec54f169e5a76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '776a4b0ef43fdafbcea8e0d8c83c1140') in 0.01635308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Holotna/Mountain/Textures/Rock01_SPE.png
+  artifactKey: Guid(3629589234676ca43bd64a8364cbd0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Textures/Rock01_SPE.png using Guid(3629589234676ca43bd64a8364cbd0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a95155422844104fbc90609d7e6562a2') in 0.031776099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.086611 seconds.
+  path: Assets/Imports/Mountain (Textures)/Colored/Rock01_ALB.png
+  artifactKey: Guid(648cd836d899640d08ba543f0de2a26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Mountain (Textures)/Colored/Rock01_ALB.png using Guid(648cd836d899640d08ba543f0de2a26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb2bbbf24b3946cf3e8f6d44c2eaadeb') in 0.013284551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.195336 seconds.
+  path: Assets/Holotna/Mountain/Prefabs/Bush01.prefab
+  artifactKey: Guid(a84014ab78d3b5e448d1fae7964f03e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Prefabs/Bush01.prefab using Guid(a84014ab78d3b5e448d1fae7964f03e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7008192f9e6d8c72fc69857c1d1103ce') in 0.07545697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Holotna/Mountain/Prefabs/Flower01B.prefab
+  artifactKey: Guid(ecf9a3493ba8f03489def654bec5f6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Prefabs/Flower01B.prefab using Guid(ecf9a3493ba8f03489def654bec5f6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8a203e8f6dac0ddc0460b5cdaf4e873') in 0.0210865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Holotna/Mountain/Prefabs/Grass01C.prefab
+  artifactKey: Guid(c01058ce063c5dd41909448e644dad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Prefabs/Grass01C.prefab using Guid(c01058ce063c5dd41909448e644dad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83015638048fa005fb45c05753712ce9') in 0.042216665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Holotna/Mountain/Prefabs/Flower01A.prefab
+  artifactKey: Guid(92f5ccbf597107f468dccf567066c9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Prefabs/Flower01A.prefab using Guid(92f5ccbf597107f468dccf567066c9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc8771fc0ec678050cd381ccd8d315bd') in 0.05862019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Holotna/Mountain/Prefabs/Pebbles01.prefab
+  artifactKey: Guid(62602d52bbbd83949ae5903b726b9016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Prefabs/Pebbles01.prefab using Guid(62602d52bbbd83949ae5903b726b9016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd02f7b45a13ab000cf83829db6105d7b') in 0.027572469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Holotna/Mountain/Prefabs/Tree01B.prefab
+  artifactKey: Guid(8679eb0fe9f522b4f93212a7b2c2b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Prefabs/Tree01B.prefab using Guid(8679eb0fe9f522b4f93212a7b2c2b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16b3cd1052f1dd7a88a72959fbb8fdf0') in 0.081100466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Holotna/Mountain/Prefabs/Mountain01.prefab
+  artifactKey: Guid(ffaa45151ef9cef46ae5e5c0571d70be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holotna/Mountain/Prefabs/Mountain01.prefab using Guid(ffaa45151ef9cef46ae5e5c0571d70be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8925e73b2839ce594fd93a9da2f5598') in 0.030195854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

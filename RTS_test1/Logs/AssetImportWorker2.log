@@ -5999,3 +5999,62 @@ Memory consumption went from 0.76 GB to 0.75 GB.
 Total: 9.181164 ms (FindLiveObjects: 0.381077 ms CreateObjectMapping: 0.464621 ms MarkObjects: 5.909343 ms  DeleteObjects: 2.424921 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1671.053785 seconds.
+  path: Assets/Imports/Mountain (Textures)/Bridge01_ALB.png
+  artifactKey: Guid(a59bfa3118c2b40a69deec23044508b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Mountain (Textures)/Bridge01_ALB.png using Guid(a59bfa3118c2b40a69deec23044508b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b94f07692255b2cccf36652aacfb1258') in 0.159822692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Imports/Mountain (Textures)/Bush01_ALB.png
+  artifactKey: Guid(f63c25dd967c84712b528d77a52602bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Mountain (Textures)/Bush01_ALB.png using Guid(f63c25dd967c84712b528d77a52602bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc976d0bfcc1d81fd29d19eb21e27b1b') in 0.040794414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Imports/Mountain (Textures)/Bush01_SPE.png
+  artifactKey: Guid(5e71346ecc59a49b7b721d480e525820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Mountain (Textures)/Bush01_SPE.png using Guid(5e71346ecc59a49b7b721d480e525820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc11d9762ea666c3c22677164d4ba6fc') in 0.015389026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Imports/Mountain (Textures)/Grass01_ALB.png
+  artifactKey: Guid(2290cac9dcede45709924b75057da663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Mountain (Textures)/Grass01_ALB.png using Guid(2290cac9dcede45709924b75057da663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0307ab0f1ec7e145f2a53a46104d0cae') in 0.036385989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Imports/Mountain (Textures)/Rock01_NRM.png
+  artifactKey: Guid(1c43baf69467e4635b6d27cd3bda8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Mountain (Textures)/Rock01_NRM.png using Guid(1c43baf69467e4635b6d27cd3bda8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e3cfc13451f731498de24da92082cbf') in 0.022772678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Imports/Mountain (Textures)/Rock01_ALB.png
+  artifactKey: Guid(5fc183a56ef4d4459b6bee0141c1a90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Mountain (Textures)/Rock01_ALB.png using Guid(5fc183a56ef4d4459b6bee0141c1a90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9605c805074225b50ef9fbab818594a2') in 0.039114461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Imports/Mountain (Textures)/Rock01_SPE.png
+  artifactKey: Guid(806e527d4465c4d42a44f34d1e18e774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Mountain (Textures)/Rock01_SPE.png using Guid(806e527d4465c4d42a44f34d1e18e774) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4129d0c8e894509c61da5cf0bbad5318') in 0.046071981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
