@@ -503,3 +503,19 @@ Memory consumption went from 134.0 MB to 132.8 MB.
 Total: 7.403244 ms (FindLiveObjects: 0.414800 ms CreateObjectMapping: 0.635536 ms MarkObjects: 5.345347 ms  DeleteObjects: 1.006514 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1961.699005 seconds.
+  path: Assets/Episode11_Assets_RTS/Database.asset
+  artifactKey: Guid(2a9f8f39b476cf943bc7688007052eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Episode11_Assets_RTS/Database.asset using Guid(2a9f8f39b476cf943bc7688007052eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7562a8cd819486413278c91ec127e3f2') in 0.03949614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.550057 seconds.
+  path: Assets/Imports/GenEvo_Dueling_Islands/NewLayer 1.terrainlayer
+  artifactKey: Guid(0249ff68ca9cc4a998cc8a5576ef3073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/GenEvo_Dueling_Islands/NewLayer 1.terrainlayer using Guid(0249ff68ca9cc4a998cc8a5576ef3073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b43111cada89d88837c363cae0990275') in 0.071188234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
