@@ -1,0 +1,1 @@
+RTS_test1/Assets/Imports/mountain_unity/*.unitypackage filter=lfs diff=lfs merge=lfs -text
