@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class FoodCollectionPoint : MonoBehaviour
 {
+    
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log(Vector3.Distance(transform.position, other.transform.position));
-        if (other.gameObject.name == "Hero" && Vector3.Distance(transform.position, other.transform.position) < 1f) 
+        if (other.gameObject.name == "Hero" && Vector3.Distance(transform.position, other.transform.position) < 1f)
         {
             Transform foodTransform = other.transform.Find("Food");
 
