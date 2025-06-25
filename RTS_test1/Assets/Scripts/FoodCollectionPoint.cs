@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class FoodCollectionPoint : MonoBehaviour
 {
-    
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log(Vector3.Distance(transform.position, other.transform.position));
