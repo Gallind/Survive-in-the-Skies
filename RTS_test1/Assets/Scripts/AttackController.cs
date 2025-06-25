@@ -4,7 +4,7 @@ public class AttackController : MonoBehaviour
 {
     public Transform targetToAttack;
     public Material idleStateMaterial, followStateMaterial, AttackStateMaterial;
-    public int unitDamage, unitHP;
+    public int unitDamage;
 
     private void OnTriggerEnter(Collider other)
     {

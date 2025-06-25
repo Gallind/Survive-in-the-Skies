@@ -1207,7 +1207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12cd1e31fc30f400286309b6029be145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitMaxHP: 100
+  unitMaxHP: 200
   healthTracker: {fileID: 7982354558408158613}
 --- !u!114 &5815481742275308296
 MonoBehaviour:
@@ -1226,7 +1226,7 @@ MonoBehaviour:
   followStateMaterial: {fileID: 2100000, guid: 410b8c4bad5634116b67537250fc46fa, type: 2}
   AttackStateMaterial: {fileID: 2100000, guid: e05f4f914f9b545a78faaf57dbedaf07, type: 2}
   unitDamage: 25
-  unitHP: 100
+  unitHP: 10000
 --- !u!114 &8937521613212198421
 MonoBehaviour:
   m_ObjectHideFlags: 0
