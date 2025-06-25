@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class FoodCollectionPoint : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)

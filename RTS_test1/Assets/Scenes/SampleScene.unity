@@ -2194,8 +2194,8 @@ MonoBehaviour:
   moveWithKeyboad: 1
   moveWithEdgeScrolling: 0
   moveWithMouseDrag: 1
-  fastSpeed: 0.07
-  normalSpeed: 0.01
+  fastSpeed: 0.1
+  normalSpeed: 0.07
   movementSensitivity: 1
   edgeSize: 50
   cursorArrowUp: {fileID: 2800000, guid: 92e12e56494a143f5b9832f4deb57c37, type: 3}
@@ -3603,26 +3603,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1871944015726087021, guid: 719b81b0362d84b6c9307e59e8e87f2f, type: 3}
-      propertyPath: unitDamage
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 2239219260311233683, guid: 719b81b0362d84b6c9307e59e8e87f2f, type: 3}
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 963194227}
-    - target: {fileID: 4191465743814908498, guid: 719b81b0362d84b6c9307e59e8e87f2f, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4191465743814908498, guid: 719b81b0362d84b6c9307e59e8e87f2f, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4191465743814908498, guid: 719b81b0362d84b6c9307e59e8e87f2f, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5990664604390048020, guid: 719b81b0362d84b6c9307e59e8e87f2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.363331
