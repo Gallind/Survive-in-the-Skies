@@ -3,7 +3,6 @@ using UnityEngine.AI;
 public class SimplePatrol : MonoBehaviour
 {
     public float speed = 5.0f; // Adjust the speed of movement
-
     private bool movingForward = true;
     private float timer = 0.0f;
     public float switchDirectionTime = 5.0f; // Time to switch direction
