@@ -1,14 +1,20 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FoodCreate : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        Debug.Log(Vector3.Distance(transform.position, other.transform.position));
-        if (other.gameObject.name == "Hero" && Vector3.Distance(transform.position, other.transform.position) < 1f)
+        if (other.CompareTag("Hero"))
         {
-            Debug.Log("1");
-            other.transform.Find("Food").gameObject.SetActive(true);
+            float dist = Vector3.Distance(transform.position, other.transform.position);
+            if (dist < 1.6f)
+            {
+                other.transform.Find("Food").gameObject.SetActive(true);
+
+                // remove the food crate from the game
+                Destroy(gameObject);
+            }
         }
     }
 }
