@@ -21,7 +21,7 @@ public class UnitSelectionManager : MonoBehaviour
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(gameObject);
+            Destroy(gameObject); 
         }
         else
         {
