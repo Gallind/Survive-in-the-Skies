@@ -14,7 +14,7 @@ public class FoodCollectionPoint : MonoBehaviour
             {
                 // disable the food indicator on the hero
                 other.transform.Find("Food").gameObject.SetActive(false);
-                timer.AddFood(1);
+                timer.AddFood(25);
             }
         }
     }
