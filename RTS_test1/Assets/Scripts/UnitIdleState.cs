@@ -1,6 +1,5 @@
 using UnityEngine;
 
-
 public class UnitIdleState : StateMachineBehaviour
 {
     AttackController attackController;
