@@ -13,6 +13,7 @@ public class FoodCreate : MonoBehaviour
                 other.transform.Find("Food").gameObject.SetActive(true);
 
                 // remove the food crate from the game
+                FoodSpawner.spawnedFoodObjects.Remove(gameObject);
                 Destroy(gameObject);
             }
         }
