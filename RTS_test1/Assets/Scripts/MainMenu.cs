@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Game Scene"); 
     }
 
+
     //public void OnOptionsButton()
     //{
     //    optionsMenu.SetActive(true);

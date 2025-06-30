@@ -953,7 +953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12cd1e31fc30f400286309b6029be145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitMaxHP: 100
+  unitMaxHP: 200
   healthTracker: {fileID: 8588491508228079704}
 --- !u!114 &1871944015726087021
 MonoBehaviour:
@@ -967,11 +967,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f00df7e22c0b4686bdbca832a83d49f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackRange: 2
+  attackDamage: 10
+  attackCooldown: 1.5
   targetToAttack: {fileID: 0}
   idleStateMaterial: {fileID: 2100000, guid: 226bb1727924b4c84a398e3875b57ae9, type: 2}
   followStateMaterial: {fileID: 2100000, guid: 410b8c4bad5634116b67537250fc46fa, type: 2}
   AttackStateMaterial: {fileID: 2100000, guid: e05f4f914f9b545a78faaf57dbedaf07, type: 2}
-  unitDamage: 25
 --- !u!114 &2239219260311233683
 MonoBehaviour:
   m_ObjectHideFlags: 0

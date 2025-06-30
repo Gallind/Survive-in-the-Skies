@@ -67,7 +67,7 @@ public class UnitAttackState : StateMachineBehaviour
     public void Attack()
     {
         if (attackController.targetToAttack == null) throw new NullReferenceException("There's no target");
-        var damageToInflict = attackController.unitDamage;
+        var damageToInflict = attackController.attackDamage;
         attackController.targetToAttack.GetComponent<Unit>().TakeDamage(damageToInflict);
     }
     // OnStateMove is called right after Animator.OnAnimatorMove()
