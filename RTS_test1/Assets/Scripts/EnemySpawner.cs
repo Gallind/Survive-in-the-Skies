@@ -5,7 +5,7 @@ using UnityEngine.AI;
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    public Vector3 spawnPosition;
+    public Vector3 spawnPosition = new Vector3(40, 0, 17);
     public float spawnRadius = 10f; // Radius to search for a valid NavMesh position
 
     public float minSpawnTime = 2f;
@@ -29,15 +29,18 @@ public class EnemySpawner : MonoBehaviour
             float waitTime = Random.Range(minSpawnTime, maxSpawnTime);
             yield return new WaitForSeconds(waitTime);
 
-            // Find a valid position on the NavMesh near the spawnPosition
+            // Generate a random point within the spawn radius
+            Vector3 randomPoint = spawnPosition + Random.insideUnitSphere * spawnRadius;
+
+            // Find a valid position on the NavMesh near the randomPoint
             NavMeshHit hit;
-            if (NavMesh.SamplePosition(spawnPosition, out hit, spawnRadius, NavMesh.AllAreas))
+            if (NavMesh.SamplePosition(randomPoint, out hit, spawnRadius, NavMesh.AllAreas))
             {
                 Instantiate(enemyPrefab, hit.position, Quaternion.identity);
             }
             else
             {
-                Debug.LogWarning($"Could not find a valid position on the NavMesh to spawn the enemy near {spawnPosition}");
+                Debug.LogWarning($"Could not find a valid position on the NavMesh to spawn the enemy near {randomPoint}");
             }
 
             //timer += waitTime;
