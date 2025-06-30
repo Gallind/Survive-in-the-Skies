@@ -1223,7 +1223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: 2
-  attackDamage: 10
+  attackDamage: 5
   attackCooldown: 1.5
   targetToAttack: {fileID: 0}
   idleStateMaterial: {fileID: 2100000, guid: 226bb1727924b4c84a398e3875b57ae9, type: 2}
