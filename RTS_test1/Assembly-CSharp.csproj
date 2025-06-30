@@ -131,6 +131,7 @@
     <Compile Include="Assets\Scripts\BuildUnitButton.cs" />
     <Compile Include="Assets\Scripts\FoodCollectionPoint.cs" />
     <Compile Include="Assets\Scripts\UnitAttackState.cs" />
+    <Compile Include="Assets\Medieval_house_lite\Fire\LightFlickerEffect.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1213,6 +1214,10 @@
     </Reference>
     <Reference Include="Unity.Settings.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Settings.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
