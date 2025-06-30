@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\UnitSelectionManager.cs" />
     <Compile Include="Assets\Episode11_Assets_RTS\Scripts\PreviewSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\FoodQuotaTimer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Episode10_Assets_RTS\CursorManager.cs" />
     <Compile Include="Assets\Scripts\HealthTracker.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="Assets\Episode11_Assets_RTS\Scripts\PlacementState.cs" />
     <Compile Include="Assets\Episode11_Assets_RTS\Scripts\ObjectsDatabseSO.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Scripts\FoodCollectionPoint.cs" />
