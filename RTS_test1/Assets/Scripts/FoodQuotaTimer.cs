@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class FoodQuotaTimer : MonoBehaviour
 {
+    public static FoodQuotaTimer Instance { get; private set; }
+
     [Header("Timer Settings")]
     public float startTimeInSeconds = 300f; // 5 minutes
     private float timeRemaining;
@@ -20,10 +22,23 @@ public class FoodQuotaTimer : MonoBehaviour
     [Header("Game Over Settings")]
     public string gameOverSceneName = "GameOver";
 
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
     void Start()
     {
         timeRemaining = startTimeInSeconds;
         UpdateTimerDisplay();
+        UpdateFoodDisplay();
     }
 
     void Update()
@@ -64,6 +79,22 @@ public class FoodQuotaTimer : MonoBehaviour
     public void AddFood(int amount)
     {
         currentFood += amount;
+        UpdateFoodDisplay();
+    }
+
+    public bool RemoveFood(int amount)
+    {
+        if (currentFood >= amount)
+        {
+            currentFood -= amount;
+            UpdateFoodDisplay();
+            return true;
+        }
+        return false;
+    }
+
+    void UpdateFoodDisplay()
+    {
         foodText.text = "Current food: " + currentFood + " / " + foodQuota;
     }
 }
