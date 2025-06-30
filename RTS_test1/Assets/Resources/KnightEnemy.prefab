@@ -1065,6 +1065,7 @@ GameObject:
   - component: {fileID: 3084106103471145683}
   - component: {fileID: 1445856838485637307}
   - component: {fileID: 1986533737142618579}
+  - component: {fileID: -2778530282627959212}
   m_Layer: 8
   m_Name: KnightEnemy
   m_TagString: Enemy
@@ -1167,7 +1168,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 2
+  m_Speed: 1
   m_Acceleration: 20
   avoidancePriority: 50
   m_AngularSpeed: 2000
@@ -1202,7 +1203,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4680579533349505768}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12cd1e31fc30f400286309b6029be145, type: 3}
   m_Name: 
@@ -1221,12 +1222,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f00df7e22c0b4686bdbca832a83d49f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackRange: 2
+  attackDamage: 10
+  attackCooldown: 1.5
   targetToAttack: {fileID: 0}
   idleStateMaterial: {fileID: 2100000, guid: 226bb1727924b4c84a398e3875b57ae9, type: 2}
   followStateMaterial: {fileID: 2100000, guid: 410b8c4bad5634116b67537250fc46fa, type: 2}
   AttackStateMaterial: {fileID: 2100000, guid: e05f4f914f9b545a78faaf57dbedaf07, type: 2}
-  unitDamage: 25
-  unitHP: 10000
 --- !u!114 &8937521613212198421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1383,13 +1385,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4680579533349505768}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61a2f438e99b545c19a4ead3a6872e52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
   switchDirectionTime: 3
+--- !u!114 &-2778530282627959212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4680579533349505768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eda846aec9af46e08b20be289f9a937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 100
+  healthTracker: {fileID: 7982354558408158613}
+  targetSearchInterval: 1
 --- !u!1 &4708659182769715294
 GameObject:
   m_ObjectHideFlags: 0
